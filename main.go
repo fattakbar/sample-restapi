@@ -19,6 +19,8 @@ type Author struct {
 	Lastname  string `json:"lastname"`
 }
 
+var books []Book
+
 func getBooks(w http.ResponseWriter, r *http.Request) {
 
 }
