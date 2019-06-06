@@ -37,9 +37,9 @@ POST api/books
 
 # Request sample
 # {
-#   "isbn":"4545454",
-#   "title":"Book Three",
-#   "author":{"firstname":"Harry",  "lastname":"White"}
+#   "isbn":"1984934724",
+#   "title":"Learn Go Programming Language From Scratch",
+#   "author":{"firstname":"Alban",  "lastname":"Andahi"}
 # }
 ```
 
@@ -49,9 +49,9 @@ PUT api/books/{id}
 
 # Request sample
 # {
-#   "isbn":"4545454",
+#   "isbn":"1984934724",
 #   "title":"Updated Title",
-#   "author":{"firstname":"Harry",  "lastname":"White"}
+#   "author":{"firstname":"Updated First Name",  "lastname":"Updated Last Name"}
 # }
 
 ```
